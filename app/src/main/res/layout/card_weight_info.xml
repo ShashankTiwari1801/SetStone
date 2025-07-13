@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_card_weight_info"
+    android:padding="@dimen/space_s"
+    android:layout_marginVertical="@dimen/space_s"
+    android:layout_marginHorizontal="@dimen/space_l"
+    >
+
+    <!-- DATE -->
+    <TextView
+        android:id="@+id/TV_WEIGHT_CARD_DATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12 Jul 2025"
+        android:textSize="@dimen/text_small"
+        android:paddingBottom="@dimen/space_xs" />
+
+    <!-- WEIGHT DISPLAY ROW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Weight -->
+        <TextView
+            android:id="@+id/TV_WEIGHT_CARD_WEIGHT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="75.3 kg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_xlarge"
+            android:gravity="start" />
+
+        <!-- Optional: Weight Trend Arrow or Icon -->
+        <ImageView
+            android:id="@+id/TV_WEIGHT_CARD_TREND_ICON"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_arrow_up"
+            android:layout_marginStart="8dp"
+            app:tint="@color/red_grad" />
+
+        <!-- Remove Entry Icon -->
+        <ImageView
+            android:id="@+id/TV_WEIGHT_CARD_REMOVE"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingVertical="@dimen/space_s"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/icon_x"
+            android:alpha="0.9"
+            app:tint="@color/brick_red" />
+    </LinearLayout>
+
+</LinearLayout>

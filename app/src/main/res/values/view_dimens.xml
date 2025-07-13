@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navbar_height">60dp</dimen>
+    <dimen name="navbar_btn_height">20dp</dimen>
+    <dimen name="navbar_highlighter_height">3dp</dimen>
+    <dimen name="navbar_highlighter_width">58dp</dimen>
+    <dimen name="calendar_cell_dimen">12dp</dimen>
+    <dimen name="daily_exercise_viewer_height">300dp</dimen>
+    <dimen name="daily_exercise_viewer_card_icon_dimen">65dp</dimen>
+    <dimen name="add_exercise_icon_dimen">24dp</dimen>
+    <dimen name="daily_exercise_viewer_spacing_height">75dp</dimen>
+    <dimen name="daily_exercise_viewer_card_x_btn_dimen">20dp</dimen>
+
+    <dimen name="set_recorder_muscle_icon_dimen">55dp</dimen>
+
+    <dimen name="user_page_card_icon_dimen">45dp</dimen>
+
+    <dimen name="week_day_min_width">45dp</dimen>
+
+    <dimen name="stack_bar_muscle_width">350dp</dimen>
+    <dimen name="stack_bar_muscle_height">50dp</dimen>
+
+    <dimen name="horizontal_bar_height">50dp</dimen>
+    <dimen name="profile_page_card_corner_radius">10dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/combined_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/LL_WEEK_ROW"
+            layout="@layout/week_row" />
+
+        <include
+            android:id="@+id/LL_CALENDAR"
+            layout="@layout/calendar" />
+
+<!--        <include layout="@layout/calorie_row" />-->
+
+        <include layout="@layout/todays_exercise" />
+
+        <include
+            android:id="@+id/LL_ADD_EXERCISE_BTN"
+            layout="@layout/add_exercise" />
+
+        <include
+            android:id="@+id/LL_DAILY_EXERCISE_VIEWER"
+            layout="@layout/daily_exercise_viewer" />
+
+    </LinearLayout>
+
+<!--    <include layout="@layout/nav_bar" />-->
+</RelativeLayout>

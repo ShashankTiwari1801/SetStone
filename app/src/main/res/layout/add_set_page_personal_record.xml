@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="@dimen/space_s"
+    android:paddingHorizontal="@dimen/space_m"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/space_m"
+    android:background="@drawable/background_record_pill"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/add_exercise_icon_dimen"
+        android:src="@drawable/crown"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/add_exercise_icon_dimen"
+        app:tint="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/set_recorder_pr_text_sample"
+        android:textStyle="bold"
+        android:textColor="@color/darker_background_color_main"
+        android:textSize="@dimen/text_large"
+        android:gravity="center_vertical"
+        android:id="@+id/TV_SET_RECORDER_PERSONAL_RECORD_TEXT"
+        android:paddingHorizontal="@dimen/space_s"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

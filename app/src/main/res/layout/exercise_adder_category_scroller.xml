@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="@dimen/space_m"
+    android:layout_marginVertical="@dimen/space_s"
+    android:layout_height="wrap_content">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/LL_EXERCISE_ADDER_CATEGORY_CONTAINER"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Abs"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:textColor="@color/darker_background_color_main"
+                android:textStyle="bold"
+                android:background="@drawable/background_exercise_adder_pill_selected"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Back"
+                android:layout_margin="@dimen/space_s"
+                android:textSize="@dimen/text_medium"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:textColor="@color/off_white_text"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Biceps"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Calves"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Chest"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Forearms"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/text_medium"
+                android:text="Glutes"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Hamstrings"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Lats"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Quads"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Shoulder"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Traps"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Triceps"
+                android:textSize="@dimen/text_medium"
+                android:layout_margin="@dimen/space_s"
+                android:paddingVertical="@dimen/space_s"
+                android:paddingHorizontal="@dimen/space_m"
+                android:background="@drawable/background_exercise_adder_pill"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

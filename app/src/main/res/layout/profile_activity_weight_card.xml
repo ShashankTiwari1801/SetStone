@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/space_m"
+        android:orientation="vertical"
+        android:id="@+id/LL_WEIGHT_DISPLAY_CARD"
+        android:background="@drawable/background_profile_page_weight_card"
+        android:layout_height="wrap_content">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="match_parent"
+            android:id="@+id/LC_BODY_WEIGHT"
+            android:layout_height="200sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Week Start"
+                android:layout_marginStart="@dimen/space_m"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_medium"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="100 Kg"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:id="@+id/TV_PROFILE_PAGE_WEIGHT_START"
+                android:textAlignment="viewEnd"
+                android:layout_marginEnd="@dimen/space_m"
+                android:textSize="@dimen/text_large"
+                android:layout_marginStart="@dimen/space_xs"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/space_s"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Week End"
+                android:layout_marginStart="@dimen/space_m"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_medium"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="100 Kg"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:id="@+id/TV_PROFILE_PAGE_WEIGHT_END"
+                android:layout_marginEnd="@dimen/space_m"
+                android:textSize="@dimen/text_large"
+                android:layout_marginStart="@dimen/space_xs"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/space_s"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Delta"
+                android:layout_marginStart="@dimen/space_m"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_medium"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="100 Kg"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:id="@+id/TV_PROFILE_PAGE_WEIGHT_DELTA"
+                android:layout_marginEnd="@dimen/space_m"
+                android:textSize="@dimen/text_large"
+                android:layout_marginStart="@dimen/space_xs"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:padding="@dimen/space_xs"
+                android:id="@+id/IV_THUMBS"
+                android:src="@drawable/icon_thumbs_up"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

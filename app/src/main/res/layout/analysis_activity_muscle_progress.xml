@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/space_xs"
+    android:layout_height="wrap_content"
+    tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/space_m"
+            android:text="@string/muscle_hamstrings"
+            android:textColor="@color/hamstrings_card_complement"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/text_small"
+            android:layout_height="match_parent"
+            tools:ignore="RtlCompat" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_marginHorizontal="@dimen/space_m"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/space_xs"
+                    android:background="@color/hamstrings_card_complement"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="100%"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="@dimen/text_small"
+                    android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+
+</LinearLayout>

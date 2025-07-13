@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/icon_muscle_lats"
+        android:layout_width="@dimen/navbar_btn_height"
+        android:layout_height="@dimen/navbar_btn_height"/>
+</LinearLayout>

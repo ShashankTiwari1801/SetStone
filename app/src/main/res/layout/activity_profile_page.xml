@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/combined_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePageActivity">
+
+
+<!--    <include layout="@layout/nav_bar"/>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/LL_USER_INFO_CARD"
+                layout="@layout/user_info_card"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/calories_burned_card"/>
+
+                <include
+                    android:id="@+id/LL_WATER_CONSUMPTION_CARD"
+                    layout="@layout/water_consumption_card"/>
+
+
+            </LinearLayout>
+
+            <include
+
+                layout="@layout/profile_activity_weight_card"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

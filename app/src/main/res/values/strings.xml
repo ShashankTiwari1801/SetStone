@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">SetStone</string>
+    <string name="sample_text" translatable="false">SAMPLE TEXT</string>
+    <string name="calorie_burned" translatable="false">Calories Burned</string>
+    <string name="today_exercise" translatable="false">Today\'s Exercises</string>
+    <string name="add_exercise" translatable="false">Add Exercises</string>
+    <string name="exercise_placeholder" translatable="false">Lat Pull-downs with Pronated Grip</string>
+    <string name="exercise_placeholder_2" translatable="false">Cable Close Grip Seated Row</string>
+
+    <string name="muscle_chest" translatable="false">Chest</string>
+    <string name="muscle_biceps" translatable="false">Biceps</string>
+    <string name="muscle_triceps" translatable="false">Triceps</string>
+    <string name="muscle_calves" translatable="false">Calves</string>
+    <string name="muscle_hamstrings" translatable="false">Hamstrings</string>
+    <string name="muscle_lats" translatable="false">Lats</string>
+    <string name="muscle_forearms" translatable="false">Forearms</string>
+    <string name="muscle_quads" translatable="false">Quads</string>
+    <string name="muscle_shoulder" translatable="false">Shoulder</string>
+    <string name="muscle_traps" translatable="false">Traps</string>
+    <string name="muscle_back" translatable="false">Back</string>
+    <string name="muscle_glutes" translatable="false">Glutes</string>
+    <string name="muscle_abs" translatable="false">Abs</string>
+
+    <string name="set_recorder_weight_text" translatable="false">Weight(Kg)</string>
+    <string name="set_recorder_reps_text" translatable="false">Reps</string>
+    <string name="set_recorder_add_text" translatable="false">Add</string>
+    <string name="set_recorder_enter_weight_hint" translatable="false">Enter Weight</string>
+    <string name="set_recorder_enter_reps_hint" translatable="false">Enter Reps</string>
+    <string name="set_recorder_add_set" translatable="false">Add Set</string>
+    <string name="set_recorder_pr_text_sample" translatable="false">100 Kg</string>
+    <string name="set_recorder_date_text_sample" translatable="false">June 20, 2025</string>
+
+    <string name="exercise_adder_done_btn_text">DONE</string>
+
+</resources>

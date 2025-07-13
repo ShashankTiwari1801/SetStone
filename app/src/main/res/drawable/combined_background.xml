@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom drawable with 50% opacity -->
+    <item
+        android:drawable="@drawable/dark_gradient_back">
+
+    </item>
+
+    <!-- Top drawable with 50% opacity -->
+    <item
+        android:drawable="@drawable/dark_gradient_back_2">
+
+    </item>
+
+</layer-list>

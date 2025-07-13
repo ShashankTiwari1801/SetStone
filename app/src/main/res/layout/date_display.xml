@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/set_recorder_date_text_sample"
+    android:textColor="@color/off_white_text"
+    android:layout_margin="@dimen/space_s"
+    android:textSize="@dimen/text_medium"
+    android:textAlignment="viewStart">
+
+</TextView>

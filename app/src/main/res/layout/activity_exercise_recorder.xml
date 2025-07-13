@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/combined_background"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseRecorderActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/LL_SET_RECORDER_HEADER"
+            layout="@layout/set_recorder_header"/>
+
+        <include
+            android:id="@+id/LL_PERSONAL_RECORD"
+            layout="@layout/add_set_page_personal_record"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/LL_SET_RECORDER_SET_DETAILS_CONTAINER"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_recorder_date_text_sample"
+                    android:textColor="@color/off_white_text"
+                    android:layout_margin="@dimen/space_s"
+                    android:textSize="@dimen/text_medium"
+                    android:textAlignment="viewStart"
+                    />
+                <include
+                    layout="@layout/card_set_info"/>
+                <include
+                    layout="@layout/card_set_info"/>
+                <include
+                    layout="@layout/card_set_info"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_s"
+                    android:text="@string/set_recorder_date_text_sample"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/off_white_text"
+                    android:textSize="@dimen/text_medium" />
+
+                <include
+                    layout="@layout/card_set_info"/>
+                <include
+                    layout="@layout/card_set_info"/>
+                <include
+                    layout="@layout/card_set_info"/>
+                
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <include
+        android:id="@+id/GL_SET_ADDER_DIALOG"
+        layout="@layout/set_adder_dialog"/>
+
+</RelativeLayout>

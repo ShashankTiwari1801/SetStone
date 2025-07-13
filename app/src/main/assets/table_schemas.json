@@ -1,0 +1,27 @@
+{
+  "daily_routine": {
+    "id": "INTEGER",
+    "day_of_week": "INTEGER",
+    "exercise_id": "INTEGER"
+  },
+
+  "exercise_records": {
+    "id" : "INTEGER",
+    "date" : "TEXT",
+    "exercise_id" : "TEXT",
+    "weight" : "REAL",
+    "reps" : "INTEGER"
+  },
+
+  "weight": {
+    "id" : "INTEGER",
+    "date": "TEXT",
+    "weight": "REAL"
+  },
+
+  "user_info": {
+    "name" : "TEXT",
+    "height" : "REAL",
+    "age" : "INTEGER"
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginBottom="@dimen/space_s"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="@dimen/add_exercise_icon_dimen"
+        android:layout_marginHorizontal="5sp"
+        android:background="@drawable/circle_plus"
+        android:backgroundTint="@color/white"
+        android:layout_marginVertical="@dimen/space_s"
+        android:layout_height="@dimen/add_exercise_icon_dimen"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/add_exercise"
+        android:textSize="@dimen/text_large"
+        android:fontFamily="@font/exo_light"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/space_m"
+    android:layout_marginHorizontal="@dimen/space_m"
+    android:layout_marginTop="@dimen/space_l"
+    android:background="@drawable/background_user_card"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="________"
+        android:textColor="@color/darker_background_color_main"
+        android:id="@+id/TV_USER_NAME_DISPLAY"
+        android:padding="@dimen/space_s"
+        android:layout_marginHorizontal="@dimen/space_m"
+        android:layout_marginVertical="@dimen/space_s"
+        android:textSize="@dimen/text_xxxlarge"
+        android:layout_height="wrap_content" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/space_m"
+        android:rowCount="1"
+        android:columnCount="3"
+        android:layout_height="wrap_content">
+        <include
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            layout="@layout/user_age_card"/>
+        <include
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            layout="@layout/user_weight_card"/>
+        <include
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            layout="@layout/user_height_card"/>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

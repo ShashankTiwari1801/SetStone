@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/DayRow"
+    android:layout_margin="@dimen/space_xs"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:rowCount="1"
+        android:layout_marginTop="@dimen/space_xs"
+        android:gravity="center_horizontal"
+        android:columnCount="15"
+        android:id="@+id/LLWeekRow"
+        android:paddingHorizontal="@dimen/space_xs"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/week_day"/>
+        <include
+            layout="@layout/week_day"/>
+        <include
+            layout="@layout/week_day"/>
+        <include
+            layout="@layout/week_day"/>
+        <include
+            layout="@layout/week_day"/>
+        <include
+            layout="@layout/week_day"/>
+        <include
+            layout="@layout/week_day"/>
+    </LinearLayout>
+
+</LinearLayout>

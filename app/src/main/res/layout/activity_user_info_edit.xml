@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/combined_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfoEditActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Name"
+        android:textSize="@dimen/text_large"
+        android:layout_marginHorizontal="@dimen/space_l"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Name here"
+        android:background="#00000000"
+        android:id="@+id/ET_USER_INFO_NAME"
+        android:textSize="@dimen/text_xxlarge"
+        android:layout_marginHorizontal="@dimen/space_l"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Age"
+        android:textSize="@dimen/text_large"
+        android:inputType="number"
+        android:layout_marginHorizontal="@dimen/space_l"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Age here"
+        android:background="#00000000"
+        android:id="@+id/ET_USER_INFO_AGE"
+        android:textSize="@dimen/text_xxlarge"
+        android:layout_marginHorizontal="@dimen/space_l"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Height (cm)"
+        android:textSize="@dimen/text_large"
+        android:layout_marginHorizontal="@dimen/space_l"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Height here"
+        android:background="#00000000"
+        android:inputType="numberDecimal"
+        android:id="@+id/ET_USER_INFO_HEIGHT"
+        android:textSize="@dimen/text_xxlarge"
+        android:layout_marginHorizontal="@dimen/space_l"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="SAVE"
+        android:id="@+id/TV_USER_INFO_SUBMIT_BTN"
+        android:layout_margin="@dimen/space_l"
+        android:textSize="@dimen/text_xxxlarge"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

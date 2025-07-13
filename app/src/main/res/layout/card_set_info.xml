@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/space_s"
+    android:layout_marginVertical="@dimen/space_xs"
+    android:layout_marginHorizontal="@dimen/space_m">
+
+    <!-- DATE -->
+
+
+    <!-- SET INFO ROW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- SET ID -->
+        <TextView
+            android:id="@+id/TV_SET_CARD_SET_ID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Set 2"
+            android:textColor="#CCCCCC"
+            android:textSize="@dimen/text_small"
+            android:paddingStart="@dimen/space_xs" />
+
+        <!-- WEIGHT -->
+        <TextView
+            android:id="@+id/TV_SET_CARD_WEIGHT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="75 kg"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_xlarge"
+            android:gravity="center" />
+
+        <!-- REPS -->
+        <TextView
+            android:id="@+id/TV_SET_CARD_REPS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="×12"
+            android:textColor="#CCCCCC"
+            android:textSize="@dimen/text_medium"
+            android:gravity="end"
+            android:paddingEnd="4dp" />
+
+        <!-- REMOVE ICON -->
+        <ImageView
+            android:id="@+id/TV_SET_CARD_REMOVE"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/icon_x"
+            android:alpha="0.9"
+            app:tint="@color/brick_red" />
+    </LinearLayout>
+
+    <!-- CALORIES -->
+    <TextView
+        android:id="@+id/TV_SET_CARD_CAL_VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="65 kcal"
+        android:textColor="#FF9800"
+        android:textSize="@dimen/text_small"
+        android:gravity="end"
+        android:paddingTop="6dp"
+        android:paddingEnd="4dp" />
+
+</LinearLayout>

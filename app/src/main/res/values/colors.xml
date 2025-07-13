@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="blue_grad">#FF00ACC1</color>
+    <color name="green_grad">#FF43A047</color>
+    <color name="purple_grad">#FF5E35B1</color>
+    <color name="red_grad">#FFD81B60</color>
+    <color name="yellow_grad">#FFFDD835</color>
+
+
+    <!-- Row 1: Red -->
+    <!-- Abs -->
+    <!-- Abs -->
+    <color name="abs_card">#FF8A65</color>               <!-- Coral -->
+    <color name="abs_card_complement">#FF7043</color>
+
+    <!-- Back -->
+    <color name="back_card">#FFA726</color>              <!-- Deep Amber -->
+    <color name="back_card_complement">#FB8C00</color>
+
+    <!-- Biceps -->
+    <color name="biceps_card">#FFD54F</color>            <!-- Golden Yellow -->
+    <color name="biceps_card_complement">#FFC107</color>
+
+    <!-- Calves -->
+    <color name="calves_card">#DCE775</color>            <!-- Lime Green -->
+    <color name="calves_card_complement">#CDDC39</color>
+
+    <!-- Chest -->
+    <color name="chest_card">#AED581</color>             <!-- Soft Green -->
+    <color name="chest_card_complement">#9CCC65</color>
+
+    <!-- Forearms -->
+    <color name="forearms_card">#81C784</color>          <!-- Mid Green -->
+    <color name="forearms_card_complement">#66BB6A</color>
+
+    <!-- Glutes -->
+    <color name="glutes_card">#4DB6AC</color>            <!-- Aqua Green -->
+    <color name="glutes_card_complement">#26A69A</color>
+
+    <!-- Hamstrings -->
+    <color name="hamstrings_card">#4FC3F7</color>        <!-- Light Blue -->
+    <color name="hamstrings_card_complement">#29B6F6</color>
+
+    <!-- Lats -->
+    <color name="lats_card">#64B5F6</color>              <!-- Sky Blue -->
+    <color name="lats_card_complement">#42A5F5</color>
+
+    <!-- Quads -->
+    <color name="quads_card">#9575CD</color>             <!-- Soft Violet -->
+    <color name="quads_card_complement">#7E57C2</color>
+
+    <!-- Shoulders -->
+    <color name="shoulder_card">#BA68C8</color>          <!-- Lavender -->
+    <color name="shoulder_card_complement">#AB47BC</color>
+
+    <!-- Traps -->
+    <color name="traps_card">#CE93D8</color>             <!-- Light Purple -->
+    <color name="traps_card_complement">#AF69C1</color>
+
+    <!-- Triceps -->
+    <color name="triceps_card">#F48FB1</color>           <!-- Muted Pink -->
+    <color name="triceps_card_complement">#EC407A</color>
+
+    <color name="background_color_main">#111111</color>
+    <color name="darker_background_color_main">#000000</color>
+
+    <!-- CUSTOM COLOR OPTIONS -->
+    <color name="brick_red">#B22222</color>
+    <color name="dark_brick_red">#8B0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="pure_gold">#FFD700</color>
+    <color name="pure_gold_medium">#FFC107</color>
+    <color name="pure_gold_dark">#FFB300</color>
+    <color name="custom_grey">#313131</color>
+
+    <!-- CUSTOM GRADIENT COLORS -->
+
+        <!-- Matcha Glow -->
+        <color name="gradient_start_matcha">#CFE8C9</color>
+        <color name="gradient_end_matcha">#A8C686</color>
+
+        <!-- Peach Sunrise -->
+        <color name="gradient_start_peach_sunrise">#FFDAB9</color>
+        <color name="gradient_end_peach_sunrise">#FFAB91</color>
+
+        <!-- Ocean Breeze -->
+        <color name="gradient_start_ocean_breeze">#B2EBF2</color>
+        <color name="gradient_end_ocean_breeze">#00BCD4</color>
+
+        <!-- Lavender Fog -->
+        <color name="gradient_start_lavender_fog">#D1C4E9</color>
+        <color name="gradient_end_lavender_fog">#9575CD</color>
+
+        <!-- Citrus Pop -->
+        <color name="gradient_start_citrus_pop">#FFF176</color>
+        <color name="gradient_end_citrus_pop">#FBC02D</color>
+
+        <!-- Forest Energy -->
+        <color name="gradient_start_forest_energy">#A5D6A7</color>
+        <color name="gradient_end_forest_energy">#388E3C</color>
+
+        <!-- Steel Mist -->
+        <color name="gradient_start_steel_mist">#ECEFF1</color>
+        <color name="gradient_end_steel_mist">#B0BEC5</color>
+
+        <!-- Neon Energy -->
+        <color name="gradient_start_neon_energy">#FF8A65</color>
+        <color name="gradient_end_neon_energy">#FF5252</color>
+
+
+    <!-- TEXT COLORS HERE -->
+    <color name="off_white_text">#E0E0E0</color>
+
+    <!-- ACCENT COLORS -->
+    <color name="primary_accent">#FF9800</color> <!-- Vibrant Orange -->
+    <color name="secondary_accent">#FFA726</color> <!-- Soft Orange -->
+
+
+    <!-- UI ELEMENT COLORS -->
+    <color name="calendar_cell_color">#E0E0E0</color>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background_exercise_adder_name_card"
+    android:layout_marginVertical="@dimen/space_xs"
+    android:layout_marginHorizontal="@dimen/space_m"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Barbell Curl"
+        android:textColor="@color/off_white_text"
+        android:textSize="@dimen/text_medium"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:padding="@dimen/space_s"
+        android:layout_margin="@dimen/space_s"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/space_s"
+        android:padding="@dimen/space_s"
+        android:textSize="@dimen/text_xsmall"
+        android:gravity="center"
+        android:text="#70"
+        android:layout_height="match_parent"/>
+</LinearLayout>
