@@ -5,5 +5,11 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="DifferentFontTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="fontFamily">@font/afacadflux_variablefont_slnt_wght</item>
+    </style>
+
     <style name="Theme.RedesignTest" parent="Base.Theme.RedesignTest" />
 </resources>
