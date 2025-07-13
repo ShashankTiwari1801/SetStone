@@ -47,7 +47,6 @@ public class ProfilePageActivity extends AppCompatActivity {
     LinearLayout weightDisplayCard;
     ImageView thumbsImage;
 
-
     final static int id_user_info_card_ll = R.id.LL_USER_INFO_CARD;
     final static int id_user_name_tv = R.id.TV_USER_NAME_DISPLAY;
     final static int id_user_age_tv = R.id.TV_USER_AGE_DISPLAY;
@@ -56,6 +55,9 @@ public class ProfilePageActivity extends AppCompatActivity {
     TextView userNameTV, userHeightTV, userWeightTV, userAgeTV;
 
     LinearLayout userInfoCardLL;
+
+    final static int id_user_bmi_tv = R.id.TV_PROFILE_PAGE_BMI;
+    TextView userBmiTV;
 
     // Utils
     DatabaseManager databaseManager;
@@ -94,6 +96,7 @@ public class ProfilePageActivity extends AppCompatActivity {
         userWeightTV = findViewById(id_user_weight_tv);
         userNameTV = findViewById(id_user_name_tv);
         userHeightTV = findViewById(id_user_height_tv);
+        userBmiTV = findViewById(id_user_bmi_tv);
     }
 
     public void initElementsAndManagers(){
@@ -102,7 +105,6 @@ public class ProfilePageActivity extends AppCompatActivity {
         navBarManager = new NavBarManager(context, navBar, context.getClass());
 
         RLMain.addView(navBar.getRoot());
-
 
         weightGraph = new WeightGraph(context, weightLineChart);
         weightGraphManager = new WeightGraphManager(weightGraph, databaseManager, context);
@@ -124,7 +126,6 @@ public class ProfilePageActivity extends AppCompatActivity {
             }
         });
 
-
     }
 
     public void loadUserInfo(){
@@ -138,6 +139,16 @@ public class ProfilePageActivity extends AppCompatActivity {
         }
 
         userWeightTV.setText(String.format("%.2f", databaseManager.getCurrentBodyWeight()));
+
+        try{
+            float weight = databaseManager.getCurrentBodyWeight();
+            float height = Float.parseFloat(userHeightTV.getText().toString());
+            float bmi = weight / ((height/100) * (height/100));
+            userBmiTV.setText(String.format("%.2f", bmi));
+        }
+        catch (Exception e){
+
+        }
 
     }
 
@@ -177,7 +188,6 @@ public class ProfilePageActivity extends AppCompatActivity {
         int exercise_id = 32;
         float weight = 32.0f;
         int reps = 10;
-
 
     }
 

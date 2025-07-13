@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background_profile_page_water_card"
+    android:background="@drawable/background_profile_page_bmi_card"
     android:padding="@dimen/space_m"
     android:layout_weight="1"
     android:layout_marginHorizontal="@dimen/space_m"
-    android:layout_marginVertical="@dimen/space_m"
-    android:layout_height="match_parent">
+    android:layout_marginTop="@dimen/space_m"
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,15 +18,15 @@
 
         <ImageView
             android:layout_width="@dimen/user_page_card_icon_dimen"
-            android:src="@drawable/icon_glass_water"
+            android:src="@drawable/icon_bmi"
             android:layout_marginEnd="@dimen/space_s"
             android:layout_height="@dimen/user_page_card_icon_dimen"
-            app:tint="#80DEEA" />
+            app:tint="@color/gradient_start_lavender_fog" />
 
         <TextView
             android:layout_width="match_parent"
-            android:text="WATER"
-            android:textColor="@color/white"
+            android:text="BMI"
+            android:textColor="#263238"
             android:gravity="center_vertical"
             android:textStyle="bold"
             android:textSize="@dimen/text_medium"
@@ -41,23 +41,22 @@
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
-            android:text="999"
+            android:text="21.25"
             android:textStyle="bold"
             android:layout_weight="1"
             android:textAlignment="viewEnd"
-            android:textColor="#E0F7FA"
+            android:id="@+id/TV_PROFILE_PAGE_BMI"
+            android:textColor="@color/gradient_end_lavender_fog"
             android:textSize="@dimen/text_xlarge"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="mL"
-            android:textColor="@color/white"
+            android:text=""
+            android:textColor="@color/darker_background_color_main"
             android:layout_marginStart="@dimen/space_xs"
             android:textSize="@dimen/text_small"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
-
-
 </LinearLayout>

@@ -16,6 +16,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.belphegor.setstone.analysis.DailyTonnage;
 import com.belphegor.setstone.database_manager.DatabaseManager;
 import com.belphegor.setstone.ui.AnalysisActivityDurationPill;
 import com.belphegor.setstone.ui.MuscleDistributionBar;
@@ -77,13 +78,16 @@ public class AnalysisActivity extends AppCompatActivity {
 
     MuscleProgressContainerManager muscleProgressContainerManager;
     //GRAPHS
-
+//    final static int id_daily_tonnage_lc = R.id.LC_DAILY_TONNAGE;
+    LineChart dailyTonnageLC;
+    DailyTonnage dailyTonnage;
 
     public void init(){
         RLMain = findViewById(id_RL_MAIN);
         LL_HORIZONTAL_GRAPH = findViewById(id_LL_HOR_GRAPH);
         muscleProgressContainerLL = findViewById(id_muscle_progress_container_ll);
         analysisDurationContainer = findViewById(id_analysis_duration_container_ll);
+//        dailyTonnageLC = findViewById(id_daily_tonnage_lc);
     }
 
     private void initUtils() {
@@ -107,8 +111,10 @@ public class AnalysisActivity extends AppCompatActivity {
         muscleDistributionBarManager.reloadData(ExerciseRecordForDuration.Duration.ETERNITY);
         muscleProgressContainerManager.reloadData(ExerciseRecordForDuration.Duration.ETERNITY);
 
+//        dailyTonnage = new DailyTonnage(databaseManager, dailyTonnageLC);
+
         analysisDurationContainerManager = new AnalysisDurationContainerManager(analysisDurationContainer, muscleProgressContainerManager,
-                muscleDistributionBarManager);
+                muscleDistributionBarManager, dailyTonnage);
 
 
     }

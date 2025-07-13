@@ -27,8 +27,10 @@
             android:layout_width="match_parent"
             android:text="Calories"
             android:textColor="#263238"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
             android:textSize="@dimen/text_medium"
-            android:layout_height="wrap_content"/>
+            android:layout_height="match_parent"/>
 
     </LinearLayout>
 

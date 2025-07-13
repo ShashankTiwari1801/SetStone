@@ -51,6 +51,15 @@
                 <include
                     layout="@layout/analysis_activity_muscle_progress_container"/>
 
+<!--                <com.github.mikephil.charting.charts.LineChart-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:id="@+id/LC_DAILY_TONNAGE"-->
+<!--                    android:layout_marginTop="@dimen/space_m"-->
+<!--                    android:layout_height="@dimen/generic_graph_height"/>-->
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"/>
             </LinearLayout>
 
 

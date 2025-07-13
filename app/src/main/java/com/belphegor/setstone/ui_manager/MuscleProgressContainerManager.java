@@ -46,13 +46,6 @@ public class MuscleProgressContainerManager {
         WEEK, MONTH, YEAR, ETERNITY
     }
 
-//    public static int WEEK = 0;
-//    public static int MONTH = 1;
-//    public static int YEAR = 2;
-//    public static int ETERNITY = 3;
-
-
-
     public MuscleProgressContainerManager(LinearLayout muscleProgressContainer, DatabaseManager databaseManager) {
         this.muscleProgressContainer = muscleProgressContainer;
         this.databaseManager = databaseManager;

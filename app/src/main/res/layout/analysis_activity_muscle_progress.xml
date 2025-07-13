@@ -9,7 +9,7 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_marginStart="@dimen/space_m"
+            android:layout_marginStart="@dimen/space_xs"
             android:text="@string/muscle_hamstrings"
             android:textColor="@color/hamstrings_card_complement"
             android:layout_weight="0.2"

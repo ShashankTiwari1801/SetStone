@@ -34,7 +34,7 @@ public class GraphHelper {
         lineDataSet.setColor(graphColor);
         lineDataSet.setFillDrawable(backgroundDrawable);
         lineDataSet.setMode(LineDataSet.Mode.HORIZONTAL_BEZIER);
-        lineDataSet.setLineWidth(11);
+        lineDataSet.setLineWidth(5);
 
     }
 

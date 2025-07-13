@@ -24,6 +24,10 @@
                 android:id="@+id/LL_USER_INFO_CARD"
                 layout="@layout/user_info_card"/>
 
+            <include
+                android:layout_weight="1"
+                layout="@layout/profile_activity_bmi_card"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="horizontal"

@@ -349,4 +349,21 @@ public class DatabaseManager {
         String QRY = "SELECT * FROM user_info ORDER BY rowid DESC LIMIT 1;";
         return executeQRYForResults(QRY);
     }
+
+
+    public List<List<String>> getDailyTonnageBetween(String startDate, String endDate) {
+
+        String QRY = String.format(
+                "SELECT date, SUM(weight * reps) " +
+                        "FROM exercise_records " +
+                        "WHERE date >= '%s' AND date <= '%s' " +
+                        "GROUP BY date " +
+                        "ORDER BY date",
+                startDate, endDate
+        );
+
+        List<List<String>> res = executeQRYForResults(QRY);
+
+        return res;
+    }
 }

@@ -3,6 +3,7 @@ package com.belphegor.setstone.util;
 import com.belphegor.setstone.database_manager.DatabaseManager;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.List;
 
 public class ExerciseRecordForDuration {
@@ -15,6 +16,39 @@ public class ExerciseRecordForDuration {
 
     public ExerciseRecordForDuration(DatabaseManager databaseManager) {
         this.databaseManager = databaseManager;
+    }
+
+    public static List<LocalDate> getFirstLast(Duration duration){
+
+        DateManager dateManager = new DateManager();
+
+        LocalDate first = LocalDate.now(), last = LocalDate.now();
+
+        switch (duration){
+            case WEEK:
+                first = dateManager.getFirstDateOfTheWeek();
+                last = dateManager.getLastDateOfTheWeek();
+                break;
+            case MONTH:
+                first = dateManager.getFirstDayOfTheMonth();
+                last = dateManager.getLastDayOfTheMonth();
+                break;
+
+            case YEAR:
+                first = dateManager.getFirstDayOfTheYear();
+                last = dateManager.getLastDayOfTheYear();
+                break;
+
+            case ETERNITY:
+                first = dateManager.getFirstDayOfEternity();
+                last = dateManager.getLastDayOfEternity();
+                break;
+
+            default:
+                break;
+        }
+
+        return Arrays.asList(first, last);
     }
 
     public static List<List<String>> getRecordForDuration(DatabaseManager databaseManager, Duration duration){
